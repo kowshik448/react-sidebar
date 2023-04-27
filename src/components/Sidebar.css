@@ -1,0 +1,85 @@
+.sidebar{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(32, 23, 89);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar{
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: rgb(32, 23, 89) ;
+    transition: 850ms;
+    overflow: auto;
+}
+
+.navbar.active{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 850ms;
+}
+
+.crossToggle{
+    padding: 16px 16px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.navbarToggle{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+
+.navbarToggle a{
+    text-decoration: none ;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+    width: 95%;
+    height: 100%;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+
+.navbarToggle a:hover{
+    background-color: #1a83ff;
+}
+
+.navbarItems {
+    width: 100%;
+    margin: 1rem;
+}
+
+.navbarItemsInner{
+    width: 100%;
+    margin: 1rem;
+}
+
+.menubars{
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.innerTitle{
+    margin-left: 1rem;
+    margin-right: 1 rem;
+}
+
